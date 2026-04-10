@@ -1,3 +1,14 @@
-const { getRawNativeDOMForTests } = require("react-native/types_generated/src/private/webapis/dom/nodes/specs/NativeDOM");
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
 
-getRawNativeDOMForTests
+const Home = () => {
+  return (
+    <View>
+      <Text>Home</Text>
+    </View>
+  )
+}
+
+export default index
+
+const styles = StyleSheet.create({})
